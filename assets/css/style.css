@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+/* button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+} */
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: rgba(22, 24, 35, 1);
+  direction: ltr;
+  overscroll-behavior: contain;
+  -webkit-font-smoothing: antialiased;
+}
+/* --------------------------------------------- */
+/* Nhung class chung su dung lai duoc: */
+/* chia 2 cot */
+.container {
+  width: 117rem;
+  margin: 0 auto;
+}
+
+.has-two-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.inline-list li {
+  display: inline;
+}
+
+/* header */
+header {
+  background: #f4f4fc url(/assets/img/background.png) no-repeat center center;
+  background-size: cover;
+}
