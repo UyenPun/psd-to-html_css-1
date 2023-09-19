@@ -13,6 +13,7 @@
 
 a {
   text-decoration: none;
+  color: #111111;
 }
 
 li {
@@ -51,7 +52,7 @@ html {
 body {
   font-size: 1.6rem;
   min-height: 100vh;
-  color: rgba(22, 24, 35, 1);
+  color: #111111;
   direction: ltr;
   overscroll-behavior: contain;
   -webkit-font-smoothing: antialiased;
@@ -60,7 +61,7 @@ body {
 /* Nhung class chung su dung lai duoc: */
 /* chia 2 cot */
 .container {
-  width: 117rem;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -89,6 +90,7 @@ header {
   background: #f4f4fc url(/assets/img/background.png) no-repeat center top;
   background-size: cover;
   padding-top: 48px;
+  padding-bottom: 265px;
 }
 
 #top-bar {
@@ -110,14 +112,12 @@ header #menu {
 header #menu li a {
   display: inline-block;
   font-size: 20px;
-  color: #111111;
   height: 48px;
   line-height: 48px;
   padding: 0px 17px;
 }
 
 header #top-bar button {
-  color: #111111;
   font-size: 18px;
   height: 48px;
   padding: 0px 42px;
@@ -134,7 +134,55 @@ header #top-bar button {
 
 header #socials li a {
   display: inline-block;
-  height: 48px;
   line-height: 48px;
   padding: 0 8px;
+}
+
+/* header: hero */
+header #hero {
+  margin-top: 137px;
+}
+
+header .page-title {
+  width: 600px;
+}
+
+header .page-title h1 {
+  font-size: 90px;
+  line-height: 108px;
+}
+
+header .page-title h2 {
+  color: #5e5858;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+  margin-top: 42px;
+  margin-bottom: 55px;
+}
+
+header #main-img {
+  position: relative;
+  flex-grow: 1;
+}
+
+header #main-img img {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+header .page-title a {
+  display: inline-block;
+  font-size: 24px;
+  height: 74px;
+  line-height: 74px;
+  background-color: #c04ae2;
+  color: white;
+  padding: 0 60px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
