@@ -85,6 +85,15 @@ ul.inlineblock-list li {
 .inline * {
   display: inline;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* header */
 header {
   background: #f4f4fc url(/assets/img/background.png) no-repeat center top;
@@ -185,4 +194,72 @@ header .page-title a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Section */
+#main {
+  background: #fdfdfe url("/assets/img/gradient-background.png") no-repeat
+    center top;
+  background-size: cover;
+  padding-top: 192px;
+}
+
+#feature #feature-title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #c04ae2;
+  text-transform: uppercase;
+}
+
+#feature h2 {
+  font-size: 60px;
+  width: 770px;
+  margin-top: 31px;
+  margin-bottom: 107px;
+}
+
+#features {
+  justify-content: space-between;
+}
+
+#features div {
+  width: 37rem;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 223px 44px 84px 44px;
+  background-repeat: no-repeat;
+  background-position: center top 70px;
+}
+
+#features div:nth-child(1) {
+  border-color: #fcd7df;
+  background-image: url(/assets/img/intro-icon/anchor.png);
+}
+
+#features div:nth-child(2) {
+  border-color: #c9f3e2;
+  background-image: url(/assets/img/intro-icon/archive.png);
+}
+
+#features div:nth-child(3) {
+  border-color: #f2d5ba;
+  background-image: url(/assets/img/intro-icon/user.png);
+}
+
+#features div h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+#features div p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #5e5858;
+  margin-top: 21px;
 }
