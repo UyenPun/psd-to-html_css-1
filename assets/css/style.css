@@ -220,6 +220,7 @@ header .page-title a {
 }
 
 #features {
+  padding-bottom: 96px;
   justify-content: space-between;
 }
 
