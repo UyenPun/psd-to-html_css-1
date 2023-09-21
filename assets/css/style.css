@@ -179,6 +179,7 @@ header #main-img img {
   position: absolute;
   top: 0;
   left: 16px;
+  max-width: 120%;
 }
 
 header .page-title a {
@@ -235,7 +236,7 @@ header .page-title a {
   -o-border-radius: 10px;
   padding: 223px 44px 84px 44px;
   background-repeat: no-repeat;
-  background-position: center top 70px;
+  background-position: center top 80px;
 }
 
 #features div:nth-child(1) {
@@ -264,3 +265,65 @@ header .page-title a {
   color: #5e5858;
   margin-top: 21px;
 }
+
+/* team */
+#team {
+  padding-top: 84px;
+  padding-bottom: 114px;
+}
+
+#team #team-info {
+  width: 470px;
+}
+
+#team #team-info h2 {
+  color: #222222;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 24px;
+}
+
+#team #team-info p:nth-child(2) {
+  font-size: 20px;
+  line-height: 36px;
+  color: #5e5858;
+  margin-top: 25px;
+}
+
+#team #team-info p:nth-child(3) {
+  font-size: 20px;
+  line-height: 32px;
+  color: #5e5858;
+  margin-top: 28px;
+}
+
+#team #team-action {
+  background-color: #c04ae2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  height: 60px;
+  display: inline-block;
+  line-height: 60px;
+  padding: 0 48px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 42px;
+}
+
+#team #team-action:hover {
+  background-color: #ae42cd;
+}
+
+#team #team-img {
+  width: 500px;
+}
+
+#team #team-img img {
+  min-width: 120%;
+}
+/* /25: 10; */
